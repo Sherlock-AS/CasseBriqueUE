@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CasseBriques",
+			"Path": "..\\Source\\CasseBriques.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CasseBriquesEditor",
+			"Path": "..\\Source\\CasseBriquesEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

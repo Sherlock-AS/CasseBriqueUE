@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CasseBriques.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CasseBriques.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CasseBriquesEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\CasseBriques">
+      <UniqueIdentifier>{6FB1C4F6-6227-3515-A324-ACCF9EA03D6E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CasseBriques\CasseBriques.Build.cs">
+      <Filter>Source\CasseBriques</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CasseBriques\CasseBriques.cpp">
+      <Filter>Source\CasseBriques</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CasseBriques\CasseBriques.h">
+      <Filter>Source\CasseBriques</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CasseBriques\MyGameStateBase.cpp">
+      <Filter>Source\CasseBriques</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CasseBriques\MyGameStateBase.h">
+      <Filter>Source\CasseBriques</Filter>
+    </ClInclude>
+    <Filter Include="Source\CasseBriques\Private">
+      <UniqueIdentifier>{2B69E0AF-2A5F-338B-8160-C144A1F4DCD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CasseBriques\Private\Player">
+      <UniqueIdentifier>{EF065100-7500-31CE-AA37-9A1BFAF3487F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CasseBriques\Private\Player\PaddlePawn.cpp">
+      <Filter>Source\CasseBriques\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\CasseBriques\Public">
+      <UniqueIdentifier>{34A4E17A-AED5-303D-AC34-4A18951531F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CasseBriques\Public\Player">
+      <UniqueIdentifier>{78934709-B8D1-393F-A9BF-5CC5E48F4803}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CasseBriques\Public\Player\PaddlePawn.h">
+      <Filter>Source\CasseBriques\Public\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

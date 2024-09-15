@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CasseBriques.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\audre\OneDrive\Documents\Unreal Projects\CasseBriques\Intermediate\Build\Win64\x64\CasseBriquesEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\audre\OneDrive\Documents\Unreal Projects\CasseBriques\Intermediate\Build\Win64\x64\UnrealEditor\Development\CasseBriques\CasseBriques.init.gen.cpp.obj"
+"C:\Users\audre\OneDrive\Documents\Unreal Projects\CasseBriques\Intermediate\Build\Win64\x64\UnrealEditor\Development\CasseBriques\MyGameStateBase.gen.cpp.obj"
+"C:\Users\audre\OneDrive\Documents\Unreal Projects\CasseBriques\Intermediate\Build\Win64\x64\UnrealEditor\Development\CasseBriques\CasseBriques.cpp.obj"
+"C:\Users\audre\OneDrive\Documents\Unreal Projects\CasseBriques\Intermediate\Build\Win64\x64\UnrealEditor\Development\CasseBriques\MyGameStateBase.cpp.obj"
+"C:\Users\audre\OneDrive\Documents\Unreal Projects\CasseBriques\Intermediate\Build\Win64\x64\UnrealEditor\Development\CasseBriques\Default.rc2.res"
+/OUT:"C:\Users\audre\OneDrive\Documents\Unreal Projects\CasseBriques\Intermediate\Build\Win64\x64\UnrealEditor\Development\CasseBriques\UnrealEditor-CasseBriques.lib"
