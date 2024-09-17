@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\audre\\onedrive\\documents\\github\\cassebriqueue\\cassebriques\\source\\cassebriques\\mygamestatebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\audre\\onedrive\\documents\\github\\cassebriqueue\\cassebriques\\intermediate\\build\\win64\\x64\\cassebriqueseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\audre\\onedrive\\documents\\github\\cassebriqueue\\cassebriques\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cassebriques\\definitions.cassebriques.h",
+            "c:\\users\\audre\\onedrive\\documents\\github\\cassebriqueue\\cassebriques\\source\\cassebriques\\mygamestatebase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamestatebase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamestatebase.generated.h",
+            "c:\\users\\audre\\onedrive\\documents\\github\\cassebriqueue\\cassebriques\\intermediate\\build\\win64\\unrealeditor\\inc\\cassebriques\\uht\\mygamestatebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

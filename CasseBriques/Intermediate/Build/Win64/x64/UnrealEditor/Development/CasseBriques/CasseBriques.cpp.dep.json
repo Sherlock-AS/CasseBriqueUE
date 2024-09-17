@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\audre\\onedrive\\documents\\unreal projects\\cassebriques\\source\\cassebriques\\cassebriques.cpp",
+        "Source": "c:\\users\\audre\\onedrive\\documents\\github\\cassebriqueue\\cassebriques\\source\\cassebriques\\cassebriques.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\audre\\onedrive\\documents\\unreal projects\\cassebriques\\intermediate\\build\\win64\\x64\\cassebriqueseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\users\\audre\\onedrive\\documents\\github\\cassebriqueue\\cassebriques\\intermediate\\build\\win64\\x64\\cassebriqueseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\audre\\onedrive\\documents\\unreal projects\\cassebriques\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cassebriques\\definitions.cassebriques.h",
-            "c:\\users\\audre\\onedrive\\documents\\unreal projects\\cassebriques\\source\\cassebriques\\cassebriques.h"
+            "c:\\users\\audre\\onedrive\\documents\\github\\cassebriqueue\\cassebriques\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cassebriques\\definitions.cassebriques.h",
+            "c:\\users\\audre\\onedrive\\documents\\github\\cassebriqueue\\cassebriques\\source\\cassebriques\\cassebriques.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

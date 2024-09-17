@@ -67,7 +67,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{614D6BAA-66EB-391A-913B-F3EC38F8B470}</ProjectGuid>
+    <ProjectGuid>{DD18C616-B1EB-3ED9-8C40-03AC4B2D6F01}</ProjectGuid>
     <RootNamespace>CasseBriques</RootNamespace>
   </PropertyGroup>
   <Import Project="UECommon.props" />
@@ -267,9 +267,13 @@
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClInclude Include="..\..\Source\CasseBriques\MyGameStateBase.h"/>
+    <ClCompile Include="..\..\Source\CasseBriques\Private\Objects\Ball.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="..\..\Source\CasseBriques\Private\Player\PaddlePawn.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+    <ClInclude Include="..\..\Source\CasseBriques\Public\Objects\Ball.h"/>
     <ClInclude Include="..\..\Source\CasseBriques\Public\Player\PaddlePawn.h"/>
   </ItemGroup>
   <PropertyGroup>

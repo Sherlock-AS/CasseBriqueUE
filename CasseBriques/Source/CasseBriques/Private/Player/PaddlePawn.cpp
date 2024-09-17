@@ -2,8 +2,8 @@
 
 
 #include "Player/PaddlePawn.h"
-
 #include "Components/BoxComponent.h"
+#include "GameFramework/FloatingPawnMovement.h"
 
 // Sets default values
 APaddlePawn::APaddlePawn()
@@ -18,6 +18,9 @@ APaddlePawn::APaddlePawn()
 	// Create StaticMeshComponent and Attach to BoxComponent
 	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("StaticMesh"));
 	StaticMesh->SetupAttachment(BoxCollision);
+
+	MovementComponent = CreateDefaultSubobject<UPawnMovementComponent, UFloatingPawnMovement>(TEXT("MovementComponent0"));
+	MovementComponent->UpdatedComponent = BoxCollision;
 
 }
 
@@ -40,5 +43,14 @@ void APaddlePawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	PlayerInputComponent->BindAxis("MoveLeftRight", this, &APaddlePawn::MovePaddle);
+
+}
+
+void APaddlePawn::MovePaddle(float AxisValue)
+{
+	FVector Direction = FVector(0, 1, 0);
+
+	AddMovementInput(Direction, AxisValue);
 }
 

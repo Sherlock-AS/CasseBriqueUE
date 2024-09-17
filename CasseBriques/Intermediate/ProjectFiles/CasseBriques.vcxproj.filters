@@ -49,6 +49,12 @@
     <Filter Include="Source\CasseBriques\Private">
       <UniqueIdentifier>{2B69E0AF-2A5F-338B-8160-C144A1F4DCD5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\CasseBriques\Private\Objects">
+      <UniqueIdentifier>{D0D21A7B-A719-3D30-8E13-C4EFD8DCB970}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CasseBriques\Private\Objects\Ball.cpp">
+      <Filter>Source\CasseBriques\Private\Objects</Filter>
+    </ClCompile>
     <Filter Include="Source\CasseBriques\Private\Player">
       <UniqueIdentifier>{EF065100-7500-31CE-AA37-9A1BFAF3487F}</UniqueIdentifier>
     </Filter>
@@ -58,6 +64,12 @@
     <Filter Include="Source\CasseBriques\Public">
       <UniqueIdentifier>{34A4E17A-AED5-303D-AC34-4A18951531F0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\CasseBriques\Public\Objects">
+      <UniqueIdentifier>{C380BA1E-617E-359A-97EC-0FCE987B96B4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CasseBriques\Public\Objects\Ball.h">
+      <Filter>Source\CasseBriques\Public\Objects</Filter>
+    </ClInclude>
     <Filter Include="Source\CasseBriques\Public\Player">
       <UniqueIdentifier>{78934709-B8D1-393F-A9BF-5CC5E48F4803}</UniqueIdentifier>
     </Filter>

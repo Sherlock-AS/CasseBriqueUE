@@ -16,10 +16,14 @@ public:
 	APaddlePawn();
 
 	UPROPERTY(EditAnywhere)
-		class UBoxComponent* BoxCollision;
+	class UBoxComponent* BoxCollision;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = ( AllowPrivateAccess = "true"))
 	class UStaticMeshComponent* StaticMesh;
+
+	// Floating pawn component
+	UPROPERTY(Category = "Pawn", VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"));
+	UPawnMovementComponent* MovementComponent;
 
 protected:
 	// Called when the game starts or when spawned
@@ -31,5 +35,7 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	void MovePaddle(float AxisValue);
 
 };

@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\audre\\OneDrive\\Documents\\Unreal Projects\\CasseBriques\\Source\\CasseBriques\\CasseBriques.Build.cs",
-		"C:\\Users\\audre\\OneDrive\\Documents\\Unreal Projects\\CasseBriques\\Source\\CasseBriques.Target.cs",
-		"C:\\Users\\audre\\OneDrive\\Documents\\Unreal Projects\\CasseBriques\\Source\\CasseBriquesEditor.Target.cs"
+		"C:\\Users\\audre\\OneDrive\\Documents\\GitHub\\CasseBriqueUE\\CasseBriques\\Source\\CasseBriques\\CasseBriques.Build.cs",
+		"C:\\Users\\audre\\OneDrive\\Documents\\GitHub\\CasseBriqueUE\\CasseBriques\\Source\\CasseBriques.Target.cs",
+		"C:\\Users\\audre\\OneDrive\\Documents\\GitHub\\CasseBriqueUE\\CasseBriques\\Source\\CasseBriquesEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }
